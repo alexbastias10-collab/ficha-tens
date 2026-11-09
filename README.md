@@ -107,11 +107,11 @@ Para diagnosticar, abre las herramientas del navegador con **F12** y revisa la p
 
 | Documento | Contenido |
 |---|---|
-| [`Documentación/01-diagrama-er.md`](docs/diagrama-er.md) | Diagrama entidad-relación y descripción de las tablas. |
-| [`docs/arquitectura.md`](docs/arquitectura.md) | Arquitectura en capas, rutas de la API y flujo de guardado. |
-| [`docs/despliegue.md`](docs/despliegue.md) | Diagrama de despliegue y pasos para pasar de XAMPP a un servidor. |
-| [`docs/casos-de-uso.md`](docs/casos-de-uso.md) | Casos de uso descritos, reglas de negocio y pendientes con el cliente. |
-| [`docs/checklist-seguridad.md`](docs/checklist-seguridad.md) | Medidas implementadas y lista de pendientes antes de producción. |
+| [`Documentación/01-diagrama-er.md`](Documentación/01-diagrama-er.md) | Diagrama entidad-relación y descripción de las tablas. |
+| [`Documentación/03-arquitectura.md`](Documentación/03-arquitectura.md) | Arquitectura en capas, rutas de la API y flujo de guardado. |
+| [`Documentación/03-despliegue.md`](Documentación/03-despliegue.md) | Diagrama de despliegue y pasos para pasar de XAMPP a un servidor. |
+| [`Doumentación/04-casos de uso escritos.md`](docs/casos-de-uso.md) | Casos de uso descritos, reglas de negocio y pendientes con el cliente. |
+| [`Documentación/06-checklist-seguridad.md`](Documentación/06-checklist-seguridad.md) | Medidas implementadas y lista de pendientes antes de producción. |
 
 Los diagramas están en formato Mermaid: se ven directamente en GitHub y en VS Code con la extensión *Markdown Preview Mermaid Support*.
 
