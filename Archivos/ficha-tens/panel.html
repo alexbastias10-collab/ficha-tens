@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel | Ficha clínica TENS · CFT O'Higgins</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="panel.css">
+</head>
+<body class="app">
+    <header class="top">
+        <strong class="top__name">CFT O'Higgins · Ficha clínica TENS</strong>
+        <span id="who"></span>
+        <button class="btn sm" id="perm" hidden>Permisos</button>
+        <button class="btn sm ghost" id="logout">Salir</button>
+    </header>
+    <nav class="tabs" id="mainTabs" aria-label="Secciones">
+        <button data-tab="fichas">Pacientes y fichas</button>
+        <button data-tab="reporte" id="tabRep">Listado por asignatura</button>
+        <button data-tab="usuarios" id="tabUsers">Usuarios</button>
+    </nav>
+    <main id="main"></main>
+    <section id="fv" hidden></section>
+    <dialog id="dlg"></dialog>
+    <script src="api.js"></script>
+    <script src="ficha.js"></script>
+    <script src="panel.js"></script>
+</body>
+</html>
