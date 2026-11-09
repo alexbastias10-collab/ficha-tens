@@ -107,7 +107,7 @@ Para diagnosticar, abre las herramientas del navegador con **F12** y revisa la p
 
 | Documento | Contenido |
 |---|---|
-| [`docs/diagrama-er.md`](docs/diagrama-er.md) | Diagrama entidad-relación y descripción de las tablas. |
+| [`Documentación/01-diagrama-er.md`](docs/diagrama-er.md) | Diagrama entidad-relación y descripción de las tablas. |
 | [`docs/arquitectura.md`](docs/arquitectura.md) | Arquitectura en capas, rutas de la API y flujo de guardado. |
 | [`docs/despliegue.md`](docs/despliegue.md) | Diagrama de despliegue y pasos para pasar de XAMPP a un servidor. |
 | [`docs/casos-de-uso.md`](docs/casos-de-uso.md) | Casos de uso descritos, reglas de negocio y pendientes con el cliente. |
